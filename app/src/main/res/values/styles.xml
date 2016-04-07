@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="FormulasTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <!-- Mathematics theme -->
+    <style name="MathematicsTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorMathematicsMain</item>
+    </style>
+
+    <!-- Mechanics theme -->
+    <style name="MechanicsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorClassicalMechMain</item>
+    </style>
+
+    <!-- Electromagnetism theme -->
+    <style name="ElectromagnetismTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorElectromagnetismMain</item>
+    </style>
+
+    <!-- Optics theme -->
+    <style name="OpticsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorOpticsMain</item>
+    </style>
+
+    <!-- Atomic physics theme -->
+    <style name="AtomicPhysTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAtomicPhysMain</item>
+    </style>
+
+    <!-- Thermodynamics theme  -->
+    <style name="ThermodynamicsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorThermodynamicsMain</item>
+    </style>
+
+    <!-- Quantum Mechanics theme -->
+    <style name="QuantumMechanicsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorQuantumMechMain</item>
+    </style>
+
+    <!-- Special relativity theme -->
+    <style name="SpecialRelativityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorSpecialRelativityMain</item>
+    </style>
+
+    <!-- Laboratory methods theme -->
+    <style name="LaboratoryTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorLaboratoryMain</item>
+    </style>
+
+    <!-- Specialized topics theme -->
+    <style name="SpecializedTopicsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorSpecializedTopicsMain</item>
+    </style>
+
+</resources>

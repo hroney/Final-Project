@@ -1,0 +1,123 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.roboquarks.miniphysgre">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <!-- for formulas activities -->
+        <activity android:name=".Formulas"
+            android:theme="@style/FormulasTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Child activities -->
+        <!-- For mathematics -->
+        <activity android:name=".mathematics.Mathematics"
+            android:parentActivityName=".Formulas"
+            android:theme="@style/MathematicsTheme"
+            android:label="@string/mathematics_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas"/>
+        </activity>
+
+        <!-- For mechanics -->
+        <activity android:name=".mechanics.Mechanics"
+            android:parentActivityName=".Formulas"
+            android:theme="@style/MechanicsTheme"
+            android:label="@string/mechanics_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas"/>
+        </activity>
+
+        <!-- For electromagnetism -->
+        <activity android:name=".electromagnetism.Electromagnetism"
+            android:parentActivityName=".Formulas"
+            android:theme="@style/ElectromagnetismTheme"
+            android:label="@string/electromagnetism_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas"/>
+        </activity>
+
+        <!-- For optics -->
+        <activity android:name=".optics.Optics"
+            android:parentActivityName=".Formulas"
+            android:theme="@style/OpticsTheme"
+            android:label="@string/optics_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas"/>
+        </activity>
+
+        <!-- For thermodynamics -->
+        <activity android:name=".thermodynamics.Thermodynamics"
+            android:parentActivityName=".Formulas"
+            android:theme="@style/ThermodynamicsTheme"
+            android:label="@string/thermodynamics_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas"/>
+        </activity>
+
+        <!-- For quantum mechanics -->
+        <activity android:name=".quantum_mechanics.QuantumMechanics"
+            android:parentActivityName=".Formulas"
+            android:theme="@style/QuantumMechanicsTheme"
+            android:label="@string/quantum_mechanics_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas"/>
+        </activity>
+
+        <!-- For atomic physics -->
+        <activity android:name=".atomic_physics.AtomicPhys"
+            android:parentActivityName=".Formulas"
+            android:theme="@style/AtomicPhysTheme"
+            android:label="@string/atomic_physics_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas"/>
+        </activity>
+
+        <!-- For laboratory methods -->
+        <activity android:name=".laboratory_methods.LaboratoryMethods"
+            android:parentActivityName=".Formulas"
+            android:theme="@style/LaboratoryTheme"
+            android:label="@string/laboratory_methods_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas"/>
+        </activity>
+
+        <!-- For special relativity -->
+        <activity android:name=".special_relativity.SpecialRelativity"
+            android:parentActivityName=".Formulas"
+            android:theme="@style/SpecialRelativityTheme"
+            android:label="@string/special_relativity_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas"/>
+        </activity>
+
+        <!-- For specialized topics -->
+        <activity android:name=".specialized_topics.SpecializedTopics"
+            android:parentActivityName=".Formulas"
+            android:theme="@style/SpecializedTopicsTheme"
+            android:label="@string/specialized_topics_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas"/>
+        </activity>
+        <!-- The end of child activities -->
+
+    </application>
+
+</manifest>

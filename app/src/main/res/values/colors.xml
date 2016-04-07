@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Custom colors -->
+    <!-- for mathematics -->
+    <color name="colorMathematicsMain">#003cff</color>
+    <color name="colorMathematicsAlternative">#000000</color>
+    <!-- for classical mechanics -->
+    <color name="colorClassicalMechMain">#00d23f</color>
+    <color name="colorClassicalMechAlternative">#000000</color>
+    <!-- for electromagnetism -->
+    <color name="colorElectromagnetismMain">#8c460c</color>
+    <color name="colorElectromagnetismAlternative">#000000</color>
+    <!-- for optics and waves -->
+    <color name="colorOpticsMain">#8f8f8f</color>
+    <color name="colorOpticsAlternative">#000000</color>
+    <!-- for thermodynamics -->
+    <color name="colorThermodynamicsMain">#4e4f6b</color>
+    <color name="colorThermodynamicsAlternative">#000000</color>
+    <!-- for atomic physics -->
+    <color name="colorAtomicPhysMain">#ffc800</color>
+    <color name="colorAtomicPhysAlternative">#000000</color>
+    <!-- for quantum mechanics -->
+    <color name="colorQuantumMechMain">#1a1919</color>
+    <color name="colorQuantumMechAlternative">#000000</color>
+    <!-- for special relativity -->
+    <color name="colorSpecialRelativityMain">#9b7c98</color>
+    <color name="colorSpecialRelativityAlternative">#000000</color>
+    <!-- for laboratory methods -->
+    <color name="colorLaboratoryMain">#b7188f</color>
+    <color name="colorLaboratoryAlternative">#000000</color>
+    <!-- for specialized topics -->
+    <color name="colorSpecializedTopicsMain">#a63805</color>
+    <color name="colorSpecializedTopicsAlternative">#000000</color>
+
+</resources>

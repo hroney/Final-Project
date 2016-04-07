@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MiniPhysGRE</string>
+
+    <!-- Names for activities -->
+    <!-- for mathematics -->
+    <string name="mathematics_name">Mathematics</string>
+    <!-- for mechanics -->
+    <string name="mechanics_name">Classical Mechanics</string>
+    <!-- for electromagnetism -->
+    <string name="electromagnetism_name">Electromagnetism</string>
+    <!-- for optics -->
+    <string name="optics_name">Optics and Waves</string>
+    <!-- for thermodynamics -->
+    <string name="thermodynamics_name">Thermodynamics</string>
+    <!-- for atomic physics -->
+    <string name="atomic_physics_name">Atomic Physics</string>
+    <!-- for quantum mechanics -->
+    <string name="quantum_mechanics_name">Quantum Mechanics</string>
+    <!-- for special relativity -->
+    <string name="special_relativity_name">Special Relativity</string>
+    <!-- for laboratory methods -->
+    <string name="laboratory_methods_name">Laboratory Methods</string>
+    <!-- for specialized topics -->
+    <string name="specialized_topics_name">Specialized Topics</string>
+</resources>
