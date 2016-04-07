@@ -90,7 +90,7 @@ public class Optics extends AppCompatActivity {
                 break;
             case 3:
                 fragment = new FresnelDiffraction();
-                webView.loadUrl("file:///android_asset/mathscribe/optics_fresnel_diffraction");
+                webView.loadUrl("file:///android_asset/mathscribe/optics_fresnel_diffraction.html");
                 break;
             case 4:
                 fragment = new WavesInOutOfMedia();
