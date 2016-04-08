@@ -91,55 +91,55 @@ public class Mathematics extends AppCompatActivity {
         switch (position) {
             case 0:
                 fragment = new CoordinateSystems();
-                webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_static_field.html");
+                webView.loadUrl("file:///android_asset/mathscribe/mathematics_coordinate_systems.html");
                 btnPreviousPage.setText("To contents");
                 btnNextPage.setText("Next");
                 break;
             case 1:
                 fragment = new VectorIntegralTransformations();
-                webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_electromagnetic_field.html");
+                webView.loadUrl("file:///android_asset/mathscribe/mathematics_vector_integral_transformations.html");
                 btnPreviousPage.setText("Previous");
                 btnNextPage.setText("Next");
                 break;
             case 2:
                 fragment = new ProgressionsAndSummations();
-                webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_fields_associated_with_media.html");
+                webView.loadUrl("file:///android_asset/mathscribe/mathematics_progressions_summations.html");
                 btnPreviousPage.setText("Previous");
                 btnNextPage.setText("Next");
                 break;
             case 3:
                 fragment = new ComplexVariables();
-                webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_force_torque_energy.html");
+                webView.loadUrl("file:///android_asset/mathscribe/mathematics_complex_variables.html");
                 btnPreviousPage.setText("Previous");
                 btnNextPage.setText("Next");
                 break;
             case 4:
                 fragment = new ProbabilityAndStatistics();
-                webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+                webView.loadUrl("file:///android_asset/mathscribe/mathematics_probability_statistics.html");
                 btnPreviousPage.setText("Previous");
                 btnNextPage.setText("Next");
                 break;
             case 5:
                 fragment = new DifferentialEquations();
-                webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+                webView.loadUrl("file:///android_asset/mathscribe/mathematics_differential_equations.html");
                 btnPreviousPage.setText("Previous");
                 btnNextPage.setText("Next");
                 break;
             case 6:
                 fragment = new PowerSeries();
-                webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+                webView.loadUrl("file:///android_asset/mathscribe/mathematics_power_series.html");
                 btnPreviousPage.setText("Previous");
                 btnNextPage.setText("Next");
                 break;
             case 7:
                 fragment = new PerimeterAreaVolume();
-                webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+                webView.loadUrl("file:///android_asset/mathscribe/mathematics_perimeter_area_volume.html");
                 btnPreviousPage.setText("Previous");
                 btnNextPage.setText("Next");
                 break;
             case 8:
                 fragment = new RandomWalk();
-                webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+                webView.loadUrl("file:///android_asset/mathscribe/mathematics_random_walk.html");
                 btnPreviousPage.setText("Previous");
                 btnNextPage.setText("To contents");
                 break;
@@ -200,47 +200,47 @@ public class Mathematics extends AppCompatActivity {
             listView.setVisibility(View.VISIBLE);
         } else if (position_id == 1) {
             fragment = new CoordinateSystems();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_static_field.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_coordinate_systems.html");
             btnPreviousPage.setText("To contents");
             btnNextPage.setText("Next");
         } else if (position_id == 2) {
             fragment = new VectorIntegralTransformations();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_electromagnetic_field.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_vector_integral_transformations.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 3) {
             fragment = new ProgressionsAndSummations();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_fields_associated_with_media.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_progressions_summations.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 4) {
             fragment = new ComplexVariables();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_force_torque_energy.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_complex_variables.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 5) {
             fragment = new ProbabilityAndStatistics();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_probability_statistics.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 6) {
             fragment = new DifferentialEquations();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_differential_equations.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 7) {
             fragment = new PowerSeries();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_power_series.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 8) {
             fragment = new PerimeterAreaVolume();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_perimeter_area_volume.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 9) {
             fragment = new RandomWalk();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_random_walk.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("To contents");
         }
@@ -249,47 +249,47 @@ public class Mathematics extends AppCompatActivity {
     public void toNextPage(View view) {
         if (position_id == 0) {
             fragment = new CoordinateSystems();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_static_field.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_coordinate_systems.html");
             btnPreviousPage.setText("To contents");
             btnNextPage.setText("Next");
         } else if (position_id == 1) {
             fragment = new VectorIntegralTransformations();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_electromagnetic_field.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_vector_integral_transformations.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 2) {
             fragment = new ProgressionsAndSummations();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_fields_associated_with_media.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_progressions_summations.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 3) {
             fragment = new ComplexVariables();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_force_torque_energy.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_complex_variables.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 4) {
             fragment = new ProbabilityAndStatistics();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_probability_statistics.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 5) {
             fragment = new DifferentialEquations();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_differential_equations.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 6) {
             fragment = new PowerSeries();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_power_series.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 7) {
             fragment = new PerimeterAreaVolume();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_perimeter_area_volume.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("Next");
         } else if (position_id == 8) {
             fragment = new RandomWalk();
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+            webView.loadUrl("file:///android_asset/mathscribe/mathematics_random_walk.html");
             btnPreviousPage.setText("Previous");
             btnNextPage.setText("To contents");
         } else if (position_id == 9) {

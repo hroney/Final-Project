@@ -37,9 +37,39 @@ information.  They are all included, and compressed, in jqmath-etc-0.4.3.min.js.
 
 	<title>in progress</title>
 </head>
+
 <body>
+<h3>Vector integral transformations</h3>
+<center><h3>Divergence</h3></center>
+<table style="border:1px solid DarkOrchid;">
+	<tr><td style="border-bottom:1px solid DarkOrchid;">Gauss's (divergence) theorem:</td>
+		<td style="border-bottom:1px solid DarkOrchid;">
+			$$∫↙\V\(\bo ∇⋅\bo A↖{→}\)dV=∮↙{S_c}\bo A↖{→}⋅d\bo s$$</td></tr>
+	<tr><td style="border-bottom:1px solid DarkOrchid;">Stokes's theorem:</td>
+		<td style="border-bottom:1px solid DarkOrchid;">
+			$$∫↙\S\(\bo ∇×\bo A↖{→})⋅ds=∮↙{L}\bo A↖{→}⋅d\bo l$$</td></tr>
+	<tr><td>Green's first theorem:</td>
+		<td>$$∮↙{S}\(f\bo ∇g\)⋅ds=∫↙\V\bo ∇⋅\(f\bo ∇g\)dV$$</td></tr>
+	<tr><td style="border-bottom:1px solid DarkOrchid;"></td>
+		<td style="border-bottom:1px solid DarkOrchid;">
+			$$=∫↙\V\[f\bo ∇^2g+\(\bo ∇f\)⋅\(\bo ∇g\)\]dV$$</td></tr>
+	<tr><td>Green's second theorem:</td>
+		<td>$$∮↙\S\[f\(\bo ∇g\)-g\(\bo ∇f\)\]⋅d\bo s$$</td></tr>
+	<tr><td></td><td>$$=∫↙\V\(f\bo ∇^2g-g\bo ∇^2f\)dV$$</td></tr>
+</table>
 
-<p>in progress</p>
-
+<p>where</p>
+<table>
+	<tr><td>$$\bo A↖{→}$$</td><td>vector field</td></tr>
+	<tr><td>$$dV$$</td><td>volume element</td></tr>
+	<tr><td>$$S_c$$</td><td>closed surface</td></tr>
+	<tr><td>$$V$$</td><td>volume enclosed</td></tr>
+	<tr><td>$$S$$</td><td>surface</td></tr>
+	<tr><td>$$d\bo s$$</td><td>surface element</td></tr>
+	<tr><td>$$L$$</td><td>loop bounding $S$</td></tr>
+	<tr><td>$$d\bo l$$</td><td>line element</td></tr>
+	<tr><td>$f$,$g$</td><td>scalar fields</td></tr>
+</table>
 </body>
+
 </html>

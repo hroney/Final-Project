@@ -38,8 +38,62 @@ information.  They are all included, and compressed, in jqmath-etc-0.4.3.min.js.
 	<title>in progress</title>
 </head>
 <body>
+<h3>Common three-dimensional coordinate systems</h3>
+<center><img src="Coordsys.jpg" alt="coordinate systems" style="width:304px;height:228px;"></center>
+<table>
+	<tr><td>$x=ρ\cos φ=r\sin θ\cos φ$;</td><td>$ρ=√{x^{2}+y^{2}}$;</td></tr>
+	<tr><td>$y=ρ\sin φ=r\sin θ\sin φ$;</td><td>$r=√{x^{2}+y^{2}+z^{2}}$;</td></tr>
+	<tr><td>$z=r\cos θ$;</td><td>$θ=\arccos (z/r)$;</td></tr>
+	<tr><td></td><td>$φ=\arctan (y/x)$.</td></tr>
+</table>
+<table border="1">
+	<tr><th>coordinate system:</th>
+		<th>rectangular</th>
+		<th>cylindrical polar</th>
+		<th>spherical polar</th>
+	</tr>
+	<tr><td>coordinates of point $P$:</td><td>$$(x,y,z)$$</td><td>$$(ρ,φ,z)$$</td><td>$$(r,θ,φ)$$</td></tr>
+	<tr><td>volume element:</td><td>$$dxdydz$$</td><td>$$ρdρdφdz$$</td><td>$$r^{2}\sin θdrdθdφ$$</td></tr>
+	<tr><td>metric elements$^{a}$ $(h_1,h_2,h_3)$:</td><td>$$(1,1,1)$$</td>
+		<td>$$(1,ρ,1)$$</td><td>$$(1,r,r\sin θ)$$</td></tr>
+</table>
+<p>$^{a}$In an orthogonal coordinate system (parameterised by coordinates $q_1,q_2,q_3$),
+	the differential line element $dl$ is obtained from:</p>
+$$(dl)^2=(h_1dq_1)^2+(h_2dq_2)^2+(h_3dq_3)^2$$
 
-<p>in progress</p>
+<center><h3>Gradient</h3></center>
+<table style="border:1px solid yellowgreen;">
+	<tr><td style="border-bottom:1px solid yellowgreen;">Rectangular coordinates:</td>
+		<td style="border-bottom:1px solid yellowgreen;">$\bo ∇f={∂f}/{∂x}\bo x↖{→}+
+			{∂f}/{∂y}\bo y↖{→}+{∂f}/{∂z}\bo z↖{→}$</td></tr>
+	<tr><td style="border-bottom:1px solid yellowgreen;">Cylindrical coordinates:</td>
+		<td style="border-bottom:1px solid yellowgreen;">$\bo ∇f={∂f}/{∂ρ}\bo ρ↖{→}+
+			{1}/{ρ}{∂f}/{∂φ}\bo φ↖{→}+{∂f}/{∂z}\bo z↖{→}$</td></tr>
+	<tr><td style="border-bottom:1px solid yellowgreen;">Spherical polar coordinates:</td>
+		<td style="border-bottom:1px solid yellowgreen;">$\bo ∇f={∂f}/{∂r}\bo r↖{→}+
+			{1}/{r}{∂f}/{∂θ}\bo θ↖{→}+{1}/{r\sin θ}{∂f}/{∂φ}\bo φ↖{→}$</td></tr>
+	<tr><td>General orthogonal coordinates:</td>
+		<td>$\bo ∇f={\bo q_{1}↖{→}}/{h_1}{∂f}/{∂q_1}
+			\bo q_{1}↖{→}+{\bo q_{2}↖{→}}/{h_2}{∂f}/{∂q_2}\bo q_{2}↖{→}+
+			{\bo q_{3}↖{→}}/{h_3}{∂f}/{∂q_3}\bo q_{3}↖{→}$</td></tr>
+</table>
+<p>where $f$ is scalar field, $∇$ is gradient, $→$ unit vector, $q_i$ and $h_i$ basis and metric
+	element respectively</p>
 
+<center><h3>Divergence</h3></center>
+<table style="border:1px solid orange;">
+	<tr><td style="border-bottom:1px solid orange;">Rectangular coordinates:</td>
+		<td style="border-bottom:1px solid orange;">$\bo ∇⋅\bo A↖{→}={∂\bo A_{x}}/{∂x}+
+			{∂\bo A_{y}}/{∂y}+{∂\bo A_{z}}/{∂z}$</td></tr>
+	<tr><td style="border-bottom:1px solid orange;">Cylindrical coordinates:</td>
+		<td style="border-bottom:1px solid orange;">$\bo ∇⋅\bo A↖{→}={1}/{ρ}{∂(ρ\bo A_{ρ})}/{∂ρ}+
+			{1}/{ρ}{∂\bo A_{φ}}/{∂φ}+{∂\bo A_{z}}/{∂z}$</td></tr>
+	<tr><td style="border-bottom:1px solid orange;">Spherical polar coordinates:</td>
+		<td style="border-bottom:1px solid orange;">$\bo ∇⋅\bo A↖{→}={1}/{r^2}{∂(r^2\bo A_{r})}/{∂r}+
+			{1}/{r\sin θ}{∂(\bo A_{θ}\sin θ)}/{∂θ}+{1}/{r\sin θ}{∂\bo A_{φ}}/{∂φ}$</td></tr>
+	<tr><td>General orthogonal coordinates:</td>
+		<td>$\bo ∇⋅\bo A↖{→}={1}/{h_1h_2h_3}\[{∂}/{∂q_1}\(\bo A_{1}h_2h_3\)+
+			{∂}/{∂q_2}\(\bo A_{2}h_3h_1\)+{∂}/{∂q_3}\(\bo A_{3}h_1h_2\)\]$</td></tr>
+</table>
 </body>
 </html>

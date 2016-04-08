@@ -22,4 +22,9 @@
     <string name="laboratory_methods_name">Laboratory Methods</string>
     <!-- for specialized topics -->
     <string name="specialized_topics_name">Specialized Topics</string>
+    <!-- the end of the names for the activities -->
+
+    <!-- Strings for the formulas_menu -->
+    <string name="formulas_settings">Settings</string>
+    <string name="formulas_about_program">About the program</string>
 </resources>
