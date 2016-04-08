@@ -74,26 +74,38 @@ public class QuantumMechanics extends AppCompatActivity
             case 0:
                 fragment = new QuantumRelations();
                 webView.loadUrl("file:///android_asset/mathscribe/quantmech_uncertainty_relations.html");
+                btnPreviousPage.setText("To contents");
+                btnNextPage.setText("Next");
                 break;
             case 1:
                 fragment = new Operators();
                 webView.loadUrl("file:///android_asset/mathscribe/quantmech_operators.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 2:
                 fragment = new DiracNotation();
                 webView.loadUrl("file:///android_asset/mathscribe/quantmech_dirac_notation.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 3:
                 fragment = new HarmonicOscillator();
                 webView.loadUrl("file:///android_asset/mathscribe/quantmech_harmonic_oscillator.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 4:
                 fragment = new PerturbationTheory();
                 webView.loadUrl("file:///android_asset/mathscribe/quantmech_perturbation_theory.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 5:
                 fragment = new RelativisticWaveEquations();
                 webView.loadUrl("file:///android_asset/mathscribe/quantmech_relativistic_wave_equation.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("To contents");
                 break;
             default:
                 break;
@@ -152,26 +164,38 @@ public class QuantumMechanics extends AppCompatActivity
         {
             fragment = new QuantumRelations();
             webView.loadUrl("file:///android_asset/mathscribe/quantmech_uncertainty_relations.html");
+            btnPreviousPage.setText("To contents");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 2) {
             fragment = new Operators();
             webView.loadUrl("file:///android_asset/mathscribe/quantmech_operators.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 3) {
             fragment = new DiracNotation();
             webView.loadUrl("file:///android_asset/mathscribe/quantmech_dirac_notation.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 4) {
             fragment = new HarmonicOscillator();
             webView.loadUrl("file:///android_asset/mathscribe/quantmech_harmonic_oscillator.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 5) {
             fragment = new PerturbationTheory();
             webView.loadUrl("file:///android_asset/mathscribe/quantmech_perturbation_theory.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 6) {
             fragment = new RelativisticWaveEquations();
             webView.loadUrl("file:///android_asset/mathscribe/quantmech_relativistic_wave_equation.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("To contents");
         }
     }
 
@@ -181,27 +205,39 @@ public class QuantumMechanics extends AppCompatActivity
         {
             fragment = new QuantumRelations();
             webView.loadUrl("file:///android_asset/mathscribe/quantmech_uncertainty_relations.html");
+            btnPreviousPage.setText("To contents");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 1)
         {
             fragment = new Operators();
             webView.loadUrl("file:///android_asset/mathscribe/quantmech_operators.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 2) {
             fragment = new DiracNotation();
             webView.loadUrl("file:///android_asset/mathscribe/quantmech_dirac_notation.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 3) {
             fragment = new HarmonicOscillator();
             webView.loadUrl("file:///android_asset/mathscribe/quantmech_harmonic_oscillator.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 4) {
             fragment = new PerturbationTheory();
             webView.loadUrl("file:///android_asset/mathscribe/quantmech_perturbation_theory.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 5) {
             fragment = new RelativisticWaveEquations();
             webView.loadUrl("file:///android_asset/mathscribe/quantmech_relativistic_wave_equation.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("To contents");
         }
         else if (position_id == 6)
         {

@@ -8,32 +8,42 @@
     <!-- for mathematics -->
     <color name="colorMathematicsMain">#003cff</color>
     <color name="colorMathematicsAlternative">#000000</color>
+    <color name="colorMathematicsButton1">#003cff</color>
     <!-- for classical mechanics -->
     <color name="colorClassicalMechMain">#00d23f</color>
     <color name="colorClassicalMechAlternative">#000000</color>
+    <color name="colorClassicalMechButton1">#00d23f</color>
     <!-- for electromagnetism -->
     <color name="colorElectromagnetismMain">#8c460c</color>
     <color name="colorElectromagnetismAlternative">#000000</color>
+    <color name="colorElectromagnetismButton1">#8c460c</color>
     <!-- for optics and waves -->
     <color name="colorOpticsMain">#8f8f8f</color>
     <color name="colorOpticsAlternative">#000000</color>
+    <color name="colorOpticsButton1">#8f8f8f</color>
     <!-- for thermodynamics -->
     <color name="colorThermodynamicsMain">#4e4f6b</color>
     <color name="colorThermodynamicsAlternative">#000000</color>
+    <color name="colorThermodynamicsButton1">#4e4f6b</color>
     <!-- for atomic physics -->
     <color name="colorAtomicPhysMain">#ffc800</color>
     <color name="colorAtomicPhysAlternative">#000000</color>
+    <color name="colorAtomicPhysButton1">#ffc800</color>
     <!-- for quantum mechanics -->
     <color name="colorQuantumMechMain">#1a1919</color>
     <color name="colorQuantumMechAlternative">#000000</color>
+    <color name="colorQuantumMechButton1">#1a1919</color>
     <!-- for special relativity -->
     <color name="colorSpecialRelativityMain">#9b7c98</color>
     <color name="colorSpecialRelativityAlternative">#000000</color>
+    <color name="colorSpecialRelativityButton1">#9b7c98</color>
     <!-- for laboratory methods -->
     <color name="colorLaboratoryMain">#b7188f</color>
     <color name="colorLaboratoryAlternative">#000000</color>
+    <color name="colorLaboratoryButton1">#b7188f</color>
     <!-- for specialized topics -->
     <color name="colorSpecializedTopicsMain">#a63805</color>
     <color name="colorSpecializedTopicsAlternative">#000000</color>
+    <color name="colorSpecializedTopicsButton1">#a63805</color>
 
 </resources>

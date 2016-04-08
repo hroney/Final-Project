@@ -30,7 +30,7 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Back"
+                android:text="Previous"
                 android:id="@+id/btnPreviousPage"
                 android:layout_weight="1"
                 android:onClick="toPreviousPage"/>

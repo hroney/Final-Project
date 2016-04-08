@@ -32,7 +32,7 @@ public class Optics extends AppCompatActivity {
      * Identifying important variables for operations with an .xml
      */
     WebView webView;
-    Button btnBackOptics;
+    Button btnNextPage, btnPreviousPage;
     FrameLayout frameLayout;
     /**
      * Defining the fragment and the fragment manager
@@ -54,6 +54,8 @@ public class Optics extends AppCompatActivity {
         setContentView(R.layout.gre_formulas_optics);
 
         /** Finding view from activities by their id */
+        btnNextPage = (Button) findViewById(R.id.btnNextPage);
+        btnPreviousPage = (Button) findViewById(R.id.btnPreviousPage);
         frameLayout = (FrameLayout) findViewById(R.id.content_frame);
         webView = (WebView) findViewById(R.id.web_view_from_container);
         /** WebViews don't allow JavaScript by default.
@@ -79,22 +81,32 @@ public class Optics extends AppCompatActivity {
             case 0:
                 fragment = new GeometricalOptics();
                 webView.loadUrl("file:///android_asset/mathscribe/optics_geometrical_optics.html");
+                btnPreviousPage.setText("To contents");
+                btnNextPage.setText("Next");
                 break;
             case 1:
                 fragment = new Interference();
                 webView.loadUrl("file:///android_asset/mathscribe/optics_interference.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 2:
                 fragment = new FraunhoferDiffraction();
                 webView.loadUrl("file:///android_asset/mathscribe/optics_fraunhofer_diffraction.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 3:
                 fragment = new FresnelDiffraction();
                 webView.loadUrl("file:///android_asset/mathscribe/optics_fresnel_diffraction.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 4:
                 fragment = new WavesInOutOfMedia();
                 webView.loadUrl("file:///android_asset/mathscribe/optics_waves.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("To contents");
                 break;
             default:
                 break;
@@ -155,19 +167,28 @@ public class Optics extends AppCompatActivity {
         } else if (position_id == 1) {
             fragment = new GeometricalOptics();
             webView.loadUrl("file:///android_asset/mathscribe/optics_geometrical_optics.html");
-
+            btnPreviousPage.setText("To contents");
+            btnNextPage.setText("Next");
         } else if (position_id == 2) {
             fragment = new Interference();
             webView.loadUrl("file:///android_asset/mathscribe/optics_interference.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         } else if (position_id == 3) {
             fragment = new FraunhoferDiffraction();
             webView.loadUrl("file:///android_asset/mathscribe/optics_fraunhofer_diffraction.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         } else if (position_id == 4) {
             fragment = new FresnelDiffraction();
             webView.loadUrl("file:///android_asset/mathscribe/optics_fresnel_diffraction");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         } else if (position_id == 5) {
             fragment = new WavesInOutOfMedia();
             webView.loadUrl("file:///android_asset/mathscribe/optics_waves.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("To contents");
         }
     }
 
@@ -175,18 +196,28 @@ public class Optics extends AppCompatActivity {
         if (position_id == 0) {
             fragment = new GeometricalOptics();
             webView.loadUrl("file:///android_asset/mathscribe/optics_geometrical_optics.html");
+            btnPreviousPage.setText("To contents");
+            btnNextPage.setText("Next");
         } else if (position_id == 1) {
             fragment = new Interference();
             webView.loadUrl("file:///android_asset/mathscribe/optics_interference.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         } else if (position_id == 2) {
             fragment = new FraunhoferDiffraction();
             webView.loadUrl("file:///android_asset/mathscribe/optics_fraunhofer_diffraction.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         } else if (position_id == 3) {
             fragment = new FresnelDiffraction();
             webView.loadUrl("file:///android_asset/mathscribe/optics_fresnel_diffraction");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         } else if (position_id == 4) {
             fragment = new WavesInOutOfMedia();
             webView.loadUrl("file:///android_asset/mathscribe/optics_waves.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("To contents");
         } else if (position_id == 5) {
             /** Changing the visibility of our container,
              * Back Button and List with chapters */

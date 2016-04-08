@@ -72,22 +72,32 @@ public class Electromagnetism extends AppCompatActivity
             case 0:
                 fragment = new StaticFields();
                 webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_static_field.html");
+                btnPreviousPage.setText("To contents");
+                btnNextPage.setText("Next");
                 break;
             case 1:
                 fragment = new ElectromagneticFields();
                 webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_electromagnetic_field.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 2:
                 fragment = new FieldsAssociatedWithMedia();
                 webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_fields_associated_with_media.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 3:
                 fragment = new ForceTorqueEnergy();
                 webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_force_torque_energy.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 4:
                 fragment = new LCRCircuits();
                 webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("To contents");
                 break;
             default:
                 break;
@@ -95,29 +105,6 @@ public class Electromagnetism extends AppCompatActivity
 
 
         position_id = position + 1;
-
-        /** Conditions for visualising the webView content */
-        /*if (position_id == 0)
-        {
-            webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_static_field.html");
-        }
-        else if (position_id == 1)
-        {
-
-        }
-        else if (position_id == 2)
-        {
-
-        }
-        else if (position_id == 3)
-        {
-
-        }
-        else if (position_id == 4)
-        {
-
-        }*/
-        /** The end of the conditions for visualising webView content */
 
         /** Changing the visibility of our container,
          * Back Button and List with chapters */
@@ -170,22 +157,32 @@ public class Electromagnetism extends AppCompatActivity
         {
             fragment = new StaticFields();
             webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_static_field.html");
+            btnPreviousPage.setText("To contents");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 2) {
             fragment = new ElectromagneticFields();
             webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_electromagnetic_field.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 3) {
             fragment = new FieldsAssociatedWithMedia();
             webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_fields_associated_with_media.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 4) {
             fragment = new ForceTorqueEnergy();
             webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_force_torque_energy.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 5) {
             fragment = new LCRCircuits();
             webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("To contents");
         }
     }
 
@@ -195,23 +192,33 @@ public class Electromagnetism extends AppCompatActivity
         {
             fragment = new StaticFields();
             webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_static_field.html");
+            btnPreviousPage.setText("To contents");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 1)
         {
             fragment = new ElectromagneticFields();
             webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_electromagnetic_field.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 2) {
             fragment = new FieldsAssociatedWithMedia();
             webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_fields_associated_with_media.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 3) {
             fragment = new ForceTorqueEnergy();
             webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_force_torque_energy.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 4) {
             fragment = new LCRCircuits();
             webView.loadUrl("file:///android_asset/mathscribe/electromagnetism_LCR.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("To contents");
         }
         else if (position_id == 5)
         {

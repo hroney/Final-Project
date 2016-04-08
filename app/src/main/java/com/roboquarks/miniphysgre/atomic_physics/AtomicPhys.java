@@ -80,15 +80,23 @@ public class AtomicPhys extends AppCompatActivity {
             case 0:
                 fragment = new HydrogenicAtoms();
                 webView.loadUrl("file:///android_asset/mathscribe/QuantumRelations.html");
+                btnPreviousPage.setText("To contents");
+                btnNextPage.setText("Next");
                 break;
             case 1:
                 fragment = new AngularMomentum();
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 2:
                 fragment = new MagneticMoments();
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 3:
                 fragment = new NuclearPhysics();
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("To contents");
                 break;
             default:
                 break;
@@ -147,12 +155,20 @@ public class AtomicPhys extends AppCompatActivity {
         } else if (position_id == 1) {
             fragment = new HydrogenicAtoms();
             webView.loadUrl("file:///android_asset/mathscribe/QuantumRelations.html");
+            btnPreviousPage.setText("To contents");
+            btnNextPage.setText("Next");
         } else if (position_id == 2) {
             fragment = new AngularMomentum();
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         } else if (position_id == 3) {
             fragment = new MagneticMoments();
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         } else if (position_id == 4) {
             fragment = new NuclearPhysics();
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("To contents");
         }
     }
 
@@ -160,12 +176,20 @@ public class AtomicPhys extends AppCompatActivity {
         if (position_id == 0) {
             fragment = new HydrogenicAtoms();
             webView.loadUrl("file:///android_asset/mathscribe/QuantumRelations.html");
+            btnPreviousPage.setText("To contents");
+            btnNextPage.setText("Next");
         } else if (position_id == 1) {
             fragment = new AngularMomentum();
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         } else if (position_id == 2) {
             fragment = new MagneticMoments();
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         } else if (position_id == 3) {
             fragment = new NuclearPhysics();
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("To contents");
         } else if (position_id == 4) {
             /** Changing the visibility of our container,
              * Back Button and List with chapters */

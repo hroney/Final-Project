@@ -73,18 +73,26 @@ public class Thermodynamics extends AppCompatActivity
             case 0:
                 fragment = new ClassicalThermodynamics();
                 webView.loadUrl("file:///android_asset/mathscribe/thermodynamics_classical_thermodynamics.html");
+                btnPreviousPage.setText("To contents");
+                btnNextPage.setText("Next");
                 break;
             case 1:
                 fragment = new GasLaws();
                 webView.loadUrl("file:///android_asset/mathscribe/thermodynamics_gas_laws.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 2:
                 fragment = new KineticTheory();
                 webView.loadUrl("file:///android_asset/mathscribe/thermodynamics_kinetic_theory.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 3:
                 fragment = new StatisticalThermodynamics();
                 webView.loadUrl("file:///android_asset/mathscribe/thermodynamics_statistical_thermodynamics.html");
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("To contents");
                 break;
             default:
                 break;
@@ -143,18 +151,26 @@ public class Thermodynamics extends AppCompatActivity
         {
             fragment = new ClassicalThermodynamics();
             webView.loadUrl("file:///android_asset/mathscribe/thermodynamics_classical_thermodynamics.html");
+            btnPreviousPage.setText("To contents");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 2) {
             fragment = new GasLaws();
             webView.loadUrl("file:///android_asset/mathscribe/thermodynamics_gas_laws.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 3) {
             fragment = new KineticTheory();
             webView.loadUrl("file:///android_asset/mathscribe/thermodynamics_kinetic_theory.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 4) {
             fragment = new StatisticalThermodynamics();
             webView.loadUrl("file:///android_asset/mathscribe/thermodynamics_statistical_thermodynamics.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("To contents");
         }
     }
 
@@ -164,19 +180,27 @@ public class Thermodynamics extends AppCompatActivity
         {
             fragment = new ClassicalThermodynamics();
             webView.loadUrl("file:///android_asset/mathscribe/thermodynamics_classical_thermodynamics.html");
+            btnPreviousPage.setText("To contents");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 1)
         {
             fragment = new GasLaws();
             webView.loadUrl("file:///android_asset/mathscribe/thermodynamics_gas_laws.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 2) {
             fragment = new KineticTheory();
             webView.loadUrl("file:///android_asset/mathscribe/thermodynamics_kinetic_theory.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         }
         else if (position_id == 3) {
             fragment = new StatisticalThermodynamics();
             webView.loadUrl("file:///android_asset/mathscribe/thermodynamics_statistical_thermodynamics.html");
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("To contents");
         }
         else if (position_id == 4)
         {

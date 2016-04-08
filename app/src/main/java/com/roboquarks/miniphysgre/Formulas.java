@@ -32,69 +32,59 @@ public class Formulas extends AppCompatActivity
     {
         Intent intent = new Intent(Formulas.this, Mathematics.class);
         startActivity(intent);
-        finish();
     }
 
     public void toMechanics(View view)
     {
         Intent intent = new Intent(Formulas.this, Mechanics.class);
         startActivity(intent);
-        finish();
     }
 
     public void toElectromagnetism(View view)
     {
         Intent intent = new Intent(Formulas.this, Electromagnetism.class);
         startActivity(intent);
-        finish();
     }
     public void toOpticsAndWaves(View view)
     {
         Intent intent = new Intent(Formulas.this, Optics.class);
         startActivity(intent);
-        finish();
     }
 
     public void toThermodynamics(View view)
     {
         Intent intent = new Intent(Formulas.this, Thermodynamics.class);
         startActivity(intent);
-        finish();
     }
 
     public void toAtomicAndNuclearPhysics(View view)
     {
         Intent intent = new Intent(Formulas.this, AtomicPhys.class);
         startActivity(intent);
-        finish();
     }
 
     public void toQuantumMechanics(View view)
     {
         Intent intent = new Intent(Formulas.this, QuantumMechanics.class);
         startActivity(intent);
-        finish();
     }
 
     public void toSpecialRelativity(View view)
     {
         Intent intent = new Intent(Formulas.this, SpecialRelativity.class);
         startActivity(intent);
-        finish();
     }
 
     public void toLaboratoryMethods(View view)
     {
         Intent intent = new Intent(Formulas.this, LaboratoryMethods.class);
         startActivity(intent);
-        finish();
     }
 
     public void toSpecializedTopics(View view)
     {
         Intent intent = new Intent(Formulas.this, SpecializedTopics.class);
         startActivity(intent);
-        finish();
     }
     /** The end of the methods definition */
 }

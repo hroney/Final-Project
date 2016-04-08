@@ -18,60 +18,100 @@
     <style name="MathematicsTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorMathematicsMain</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorMathematicsButton1</item>
+        <!-- Background color of text in the app -->
+        <item name="android:textColor">#ffffff</item>
     </style>
 
     <!-- Mechanics theme -->
     <style name="MechanicsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorClassicalMechMain</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorClassicalMechButton1</item>
+        <!-- Background color of text in the app -->
+        <item name="android:textColor">#ffffff</item>
     </style>
 
     <!-- Electromagnetism theme -->
     <style name="ElectromagnetismTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorElectromagnetismMain</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorElectromagnetismButton1</item>
+        <!-- Background color of text in the app -->
+        <item name="android:textColor">#ffffff</item>
     </style>
 
     <!-- Optics theme -->
     <style name="OpticsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorOpticsMain</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorOpticsButton1</item>
+        <!-- Background color of text in the app -->
+        <item name="android:textColor">#ffffff</item>
     </style>
 
     <!-- Atomic physics theme -->
     <style name="AtomicPhysTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorAtomicPhysMain</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorAtomicPhysButton1</item>
+        <!-- Background color of text in the app -->
+        <item name="android:textColor">#000000</item>
     </style>
 
     <!-- Thermodynamics theme  -->
     <style name="ThermodynamicsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorThermodynamicsMain</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorThermodynamicsButton1</item>
+        <!-- Background color of text in the app -->
+        <item name="android:textColor">#ffffff</item>
     </style>
 
     <!-- Quantum Mechanics theme -->
     <style name="QuantumMechanicsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorQuantumMechMain</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorQuantumMechButton1</item>
+        <!-- Background color of text in the app -->
+        <item name="android:textColor">#ffffff</item>
     </style>
 
     <!-- Special relativity theme -->
     <style name="SpecialRelativityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorSpecialRelativityMain</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorSpecialRelativityButton1</item>
+        <!-- Background color of text in the app -->
+        <item name="android:textColor">#ffffff</item>
     </style>
 
     <!-- Laboratory methods theme -->
     <style name="LaboratoryTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorLaboratoryMain</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorLaboratoryButton1</item>
+        <!-- Background color of text in the app -->
+        <item name="android:textColor">#ffffff</item>
     </style>
 
     <!-- Specialized topics theme -->
     <style name="SpecializedTopicsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorSpecializedTopicsMain</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorSpecializedTopicsButton1</item>
+        <!-- Background color of text in the app -->
+        <item name="android:textColor">#ffffff</item>
     </style>
 
 </resources>

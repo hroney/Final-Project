@@ -31,7 +31,7 @@ public class Mechanics extends AppCompatActivity
      * Identifying important variables for operations with an .xml
      */
     WebView webView;
-    Button btnBackMechanics;
+    Button btnNextPage, btnPreviousPage;
     FrameLayout frameLayout;
     /**
      * Defining the fragment and the fragment manager
@@ -53,6 +53,8 @@ public class Mechanics extends AppCompatActivity
         setContentView(R.layout.gre_formulas_mechanics);
 
         /** Finding view from activities by their id */
+        btnNextPage = (Button) findViewById(R.id.btnNextPage);
+        btnPreviousPage = (Button) findViewById(R.id.btnPreviousPage);
         frameLayout = (FrameLayout) findViewById(R.id.content_frame);
         webView = (WebView) findViewById(R.id.web_view_from_container);
         /** WebViews don't allow JavaScript by default.
@@ -77,12 +79,18 @@ public class Mechanics extends AppCompatActivity
         switch (position) {
             case 0:
                 fragment = new NewtonianMechanics();
+                btnPreviousPage.setText("To contents");
+                btnNextPage.setText("Next");
                 break;
             case 1:
                 fragment = new LagrangianMechanics();
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("Next");
                 break;
             case 2:
                 fragment = new HamiltonianMechanics();
+                btnPreviousPage.setText("Previous");
+                btnNextPage.setText("To contents");
                 break;
             default:
                 break;
@@ -141,20 +149,32 @@ public class Mechanics extends AppCompatActivity
             listView.setVisibility(View.VISIBLE);
         } else if (position_id == 1) {
             fragment = new NewtonianMechanics();
+            btnPreviousPage.setText("To contents");
+            btnNextPage.setText("Next");
         } else if (position_id == 2) {
             fragment = new LagrangianMechanics();
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         } else if (position_id == 3) {
             fragment = new HamiltonianMechanics();
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("To contents");
         }
     }
 
     public void toNextPage(View view) {
         if (position_id == 0) {
             fragment = new NewtonianMechanics();
+            btnPreviousPage.setText("To contents");
+            btnNextPage.setText("Next");
         } else if (position_id == 1) {
             fragment = new LagrangianMechanics();
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("Next");
         } else if (position_id == 2) {
             fragment = new HamiltonianMechanics();
+            btnPreviousPage.setText("Previous");
+            btnNextPage.setText("To contents");
         } else if (position_id == 3) {
             /** Changing the visibility of our container,
              * Back Button and List with chapters */
