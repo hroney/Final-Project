@@ -35,11 +35,65 @@ The files jscurry-0.4.0.js, jscurry-0.4.0.min.js, and jqmath-0.4.3.js are provid
 information.  They are all included, and compressed, in jqmath-etc-0.4.3.min.js.
 -->
 
-	<title>in progress</title>
+	<title>Progressions and Summations</title>
 </head>
 <body>
+<h3>Progressions and summations</h3>
+<center><h3>Progressions</h3></center>
+<table style="border:1px solid Chocolate;">
+	<tr><td style="border-right:1px solid Chocolate;">Arithmetic progression:</td>
+		<td>$S_n=a+\(a+d\)+\(a+2d\)+...$</td></tr>
+	<tr><td style="border-right:1px solid Chocolate;"></td><td>$+\[a+\(n-1\)d\]$</td></tr>
+	<tr><td style="border-right:1px solid Chocolate;"></td><td>$={n}/{2}\[2a+\(n-1\)d\]$</td></tr>
+	<tr><td style="border-bottom:1px solid Chocolate;border-right:1px solid Chocolate;"></td>
+		<td style="border-bottom:1px solid Chocolate;">
+			$={n}/{2}\(a+l\)$</td></tr>
+	<tr><td style="border-right:1px solid Chocolate;">Geometric progression:</td>
+		<td>$S_n=a+ar+ar^2+...+ar^{n-1}$</td></tr>
+	<tr><td style="border-right:1px solid Chocolate;"></td><td>$=a{1-r^n}/{1-r}$</td></tr>
+	<tr><td style="border-bottom:1px solid Chocolate;border-right:1px solid Chocolate;"></td>
+		<td style="border-bottom:1px solid Chocolate;">$S_∞={a}/{1-r} \text"  " (|r|<1)$</td></tr>
+	<tr><td style="border-bottom:1px solid Chocolate;border-right:1px solid Chocolate;">
+		Arithmetic mean:</td>
+		<td style="border-bottom:1px solid Chocolate;">
+			$\ov x_a={1}/{n}\(x_1+x_2+...+x_n\)$</td></tr>
+	<tr><td style="border-bottom:1px solid Chocolate;border-right:1px solid Chocolate;">
+		Geometric mean:</td>
+		<td style="border-bottom:1px solid Chocolate;">
+			$\ov x_g=\(x_1⋅x_2⋅x_3⋅...⋅x_n\)^{1/n}$</td></tr>
+	<tr><td style="border-bottom:1px solid Chocolate;border-right:1px solid Chocolate;">
+		Harmonic mean:</td>
+		<td style="border-bottom:1px solid Chocolate;">
+			$\ov x_h=n\({1}/{x_1}+{1}/{x_2}+{1}/{x_3}+...{1}/{x_n}\)^{-1}$</td></tr>
+	<tr><td style="border-right:1px solid Chocolate;">Relative mean magnitudes:</td>
+		<td>$\ov x_a ≥ \ov x_g ≥\ov x_h \text" if " x_i>0 \text" for all " i$ </td></tr>
+</table>
+<p>where</p>
+<table>
+	<tr><td>$$n$$</td><td>number of terms</td><td>$$r$$</td><td>common ratio</td></tr>
+	<tr><td>$$S_n$$</td><td>sum of $n$ successive terms</td></tr>
+	<tr><td>$$a$$</td><td>first term</td><td>$$<...>_a$$</td><td>arithmetic mean</td></tr>
+	<tr><td>$$d$$</td><td>common difference</td><td>$$<...>_g$$</td><td>geometric mean</td></tr>
+	<tr><td>$$l$$</td><td>last term</td><td>$$<...>_h$$</td><td>harmonic mean</td></tr>
+</table>
 
-<p>in progress</p>
+<center><h3>Summations</h3></center>
+<table style="border:1px solid DarkGoldenRod;">
+	<tr><td></td><td>$∑↙{i=1}↖n i={n(n+1)}/{2}$</td></tr>
+	<tr><td></td><td>$∑↙{i=1}↖n i^2={n(n+1)(2n+1)}/{6}$</td></tr>
+	<tr><td></td><td>$∑↙{i=1}↖n i^3={n^2(n+1)^2}/{4}$</td></tr>
+	<tr><td>Summations formulas</td><td>$∑↙{i=1}↖n i^4={n}/{30}(n+1)(2n+1)(3n^2+3n-1)$</td></tr>
+	<tr><td></td><td>$∑↙{i=1}↖∞ {(-1)^{i+1}}/{i}=1-{1}/{2}+{1}/{3}-{1}/{4}+...=\ln 2$</td></tr>
+	<tr><td></td><td>$∑↙{i=1}↖∞ {(-1)^{i+1}}/{2i-1}=1-{1}/{3}+{1}/{5}-{1}/{7}+...={π}/{4}$</td></tr>
+	<tr><td></td><td>$∑↙{i=1}↖∞ {1}/{i^2}=1+{1}/{4}+{1}/{9}+{1}/{16}+...={π^2}/{6}$</td></tr>
+</table>
+<p>where $i$ is dummy integer</p>
 
+<table style="border:1px solid DarkOliveGreen;">
+	<tr><td cellspacing="0" style="border:1px solid DarkOliveGreen;">Euler's constant$^a$</td>
+		<td  cellspacing="0" style="border:1px solid DarkOliveGreen;">
+			$γ=\lim↙{n→∞}\(1+{1}/{2}+{1}/{3}+...+{1}/{n}-\ln n\)$</td></tr>
+</table>
+<p>$^a$ $γ≈0.577215664...$ is Euler's constant</p>
 </body>
 </html>

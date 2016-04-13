@@ -26,5 +26,7 @@
 
     <!-- Strings for the formulas_menu -->
     <string name="formulas_settings">Settings</string>
-    <string name="formulas_about_program">About the program</string>
+    <string name="formulas_about_program">About</string>
+    <string name="formulas_literature">Recommended Literature</string>
+    <string name="formulas_useful_tips">Recommendations</string>
 </resources>
